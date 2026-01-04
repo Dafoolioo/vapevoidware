@@ -917,7 +917,7 @@ table.insert(vapeConnections, {Disconnect = function() hookfunction(func, oldcha
 			local commit = subbed:find('spoofed_commit_check')
 			commit = commit and subbed:sub(commit + 21, commit + 60) or nil
 			commit = commit and #commit == 40 and commit or 'main'
-			whitelist.textdata = game:HttpGet('https://raw.githubusercontent.com/Dafoolio/whitelists/'..commit..'/PlayerWhitelist.json', true)
+			whitelist.textdata = game:HttpGet('https://raw.githubusercontent.com/Dafoolioo/whitelists/'..commit..'/PlayerWhitelist.json', true)
 		end)
 		if not whitelistloaded or not sha or not whitelist.get then return true end
 		whitelist.loaded = true
