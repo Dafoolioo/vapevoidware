@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dafoolioo/vapevoidware/main", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dafoolioo/vapevoidware/main/RewriteMainScript.lua", true))()
