@@ -85,7 +85,7 @@ local function vapeGithubRequest(scripturl)
 		end)
 		if not suc or res == '404: Not Found' then
 			suc, res = pcall(function() 
-				return game:HttpGet("https://raw.githubusercontent.com/Erchobg/vapevoidware/"..readfile("vape/commithash.txt").."/"..scripturl, true) 
+				return game:HttpGet("https://raw.githubusercontent.com/Dafoolioo/vapevoidware/"..readfile("vape/commithash.txt").."/"..scripturl, true) 
 			end)
 		end
 		assert(suc, res)
